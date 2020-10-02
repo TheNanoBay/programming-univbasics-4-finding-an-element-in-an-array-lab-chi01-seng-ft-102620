@@ -6,9 +6,13 @@ def find_element_index(array, value_to_find)
     if array[i] == value_to_find
       value _found = true 
       index_ value = i 
-      return i
     else 
       i = i + 1 
     end
   end
+  if value_found != true
+    return nil
+    
+  else 
+    return index_value
 end
